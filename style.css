@@ -1,0 +1,41 @@
+body , html {
+	height: 100%;
+	width: 100%;
+	background: url(header.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.container {
+	height: 100%;
+	width: 100%;
+}
+.tit {
+	color: #4DEBEB;
+	text-align: center;
+	text-shadow: 5px 5px 7px #B327B0; 
+}
+.buffer {
+	height: 180px;
+}
+hr {
+	border-color: #ED0533;
+	border-width: 3px;
+	max-width: 100px;
+}
+.btn {
+	border-radius: 5em;
+	color: black;
+	background-color: #ED0533;
+	border-color: #ED0533;
+}
+.btn-primary {
+		border-color: #ED0533;
+}
+.btn:hover {
+	background-color: #ED0533;
+	color: black;
+	border-color: #ED0533;
+	border-width: 4px;
+}
